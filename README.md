@@ -34,5 +34,5 @@ and more function
 - pop()
 - reduce()
 - reduce(sum, item, assocData)
-- some(sum, item, assocData)
+- some(item, key, assocData)
 - slice(number)
