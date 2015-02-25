@@ -22,6 +22,17 @@ assoc.every(function(item, key, assocData){
 assoc.filter(function(item, key, assocData){
   return key.indexOf('std') === 0;
 });                                                 // AssocArray ([{key:'std001', value: {name : 'maboy'}}])
+
 ```
 
-
+and more function
+- forEach(item, key, assocData)
+- contains(key)
+- indexOf(key)
+- length()
+- map(item, key, assocData)
+- pop()
+- reduce()
+- reduce(sum, item, assocData)
+- some(sum, item, assocData)
+- slice(number)
