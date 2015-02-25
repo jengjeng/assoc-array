@@ -26,6 +26,9 @@ assoc.filter(function(item, key, assocData){
 ```
 
 and more function
+- remove(key)
+- clear()
+- clone()
 - forEach(item, key, assocData)
 - contains(key)
 - indexOf(key)
