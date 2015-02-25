@@ -8,7 +8,7 @@ How to use
 ```
 var assoc = new AssocArray();
 assoc.set('std001', {name : 'maboy'});
-assoc.get('key');                                   // {value : 'maboy'}
+assoc.get('std001');                                // {value : 'maboy'}
 assoc.data;                                         // {std001: {name : 'maboy'} }
 assoc.array();                                      // [{key:'std001', value: {name : 'maboy'}}]
 assoc.keys();                                       // ["std001"]
