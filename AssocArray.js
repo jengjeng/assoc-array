@@ -23,7 +23,7 @@
             return this;
         }
         this.clone = function () {
-            if (typeof $ === undefined)
+            if ($ === undefined)
                 throw "jQuery required for this method";
             return $.extend(true, {}, this, {});
         }
