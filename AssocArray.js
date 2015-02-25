@@ -46,8 +46,6 @@
             return JSON.stringify(this.val());
         }
         this.every = function (fn) {
-            if (this.length() === 0)
-                return false;
             for (var i in this.data) {
                 if (!fn(this.data[i], i, this.data))
                     return false;
@@ -69,12 +67,12 @@
             return this;
         }
         this.contains = function (k) {
-            if (typeof k === "undefined") return false;
+            if (k === undefined) return false;
             var _this = this, chk = true;
             if (!(k instanceof Array))
                 k = [k];
             k.forEach(function (e, i) {
-                chk = (typeof _this.get(e) === "undefined");
+                chk = (_this.get(e) === undefined);
                 return !chk;
             });
             return !chk;
