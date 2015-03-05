@@ -1,19 +1,25 @@
 {
-    "name": "assoc-array",
-    "main": "assoc-array.js",
-    "version": "1.0.0",
-    "homepage": "https://github.com/jengjeng/assoc-array",
-    "authors": [
-        "jengjeng <kinkongjeng@gmail.com>"
-    ],
-    "description": "Associative array for javascript",
-    "keywords": [
-        "associatvie",
-        "array",
-        "javascript"
-    ],
-    "ignore": [
-        ".jshintrc",
-        "**/*.txt"
-    ]
+  "name": "assoc-array",
+  "main": "assoc-array.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jengjeng/assoc-array",
+  "authors": [
+    "jengjeng <kinkongjeng@gmail.com>"
+  ],
+  "description": "Associative array for javascript",
+  "keywords": [
+    "associatvie",
+    "array",
+    "javascript"
+  ],
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "devDependencies": {
+    "assoc-array": "*"
+  },
+  "dependencies": {
+    "assoc-array": "*"
+  }
 }
