@@ -1,7 +1,7 @@
 {
   "name": "assoc-array",
-  "main": "assoc-array.js",
-  "version": "1.0.0",
+    "main": "assoc-array.js",
+    "version":  "0.0.1",
   "homepage": "https://github.com/jengjeng/assoc-array",
   "authors": [
     "jengjeng <kinkongjeng@gmail.com>"
@@ -15,11 +15,5 @@
   "ignore": [
     ".jshintrc",
     "**/*.txt"
-  ],
-  "devDependencies": {
-    "assoc-array": "*"
-  },
-  "dependencies": {
-    "assoc-array": "*"
-  }
+  ]
 }
