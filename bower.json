@@ -7,9 +7,6 @@
         "jengjeng <kinkongjeng@gmail.com>"
     ],
     "description": "Associative array for javascript",
-    "moduleType": [
-        "globals"
-    ],
     "keywords": [
         "associatvie",
         "array",
@@ -18,9 +15,5 @@
     "ignore": [
         ".jshintrc",
         "**/*.txt"
-    ],
-    "license": "MIT",
-    "devDependencies": {
-        "assoc-array": "*"
-    }
+    ]
 }
