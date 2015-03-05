@@ -1,0 +1,26 @@
+{
+    "name": "assoc-array",
+    "main": "assoc-array.js",
+    "version": "1.0.0",
+    "homepage": "https://github.com/jengjeng/assoc-array",
+    "authors": [
+        "jengjeng <kinkongjeng@gmail.com>"
+    ],
+    "description": "Associative array for javascript",
+    "moduleType": [
+        "globals"
+    ],
+    "keywords": [
+        "associatvie",
+        "array",
+        "javascript"
+    ],
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "assoc-array": "*"
+    }
+}
