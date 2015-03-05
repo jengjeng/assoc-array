@@ -1,5 +1,5 @@
 ﻿/*
- * Assoac Array
+ * assoc-array
  * @version v1.0.0
  */
 
