@@ -1,6 +1,7 @@
 ﻿/*
  * assoc-array
  * @version v1.0.0
+ * @author Wittawat Patcharinsak
  */
 
 ; (function ($, window, document, undefined) {
