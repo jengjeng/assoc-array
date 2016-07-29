@@ -1,5 +1,5 @@
 # AssocArray
-Associative array for javascript
+Associative array for javascript.
 
 
 How to use
